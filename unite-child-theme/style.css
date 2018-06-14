@@ -1,0 +1,95 @@
+/*
+Theme Name: unite-child-theme
+Template: unite
+
+*/
+
+/* импортируем стили родительской темы */
+@import url("../unite/style.css");
+.my-content_post {
+	background-color: rgba(222, 218, 218, .7);
+	padding: 15px;
+	border-radius: 15px;
+	color: #000;
+	margin-bottom: 40px;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.tax-list {
+	padding: 0;
+	padding-left: 15px;
+	border-left: 2px solid #54397E;
+}
+.tax-list li {
+	position: relative;
+	padding-left: 18px;
+}
+.tax-list li:nth-child(1):before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url('img/icon/svg/genre.svg');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.tax-list li:nth-child(2):before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url('img/icon/svg/country.svg');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.tax-list li:nth-child(3) {
+	display: none;
+}
+.tax-list li:nth-child(4) {
+	display: none;
+}
+.post-meta {
+	padding: 0;
+	padding-left: 15px;
+	border-left: 2px solid #54397E;
+}
+.post-meta li {
+	position: relative;
+	padding-left: 18px;
+}
+.post-meta li:nth-child(1):before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url('img/icon/svg/value.svg');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.post-meta li:nth-child(2):before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: url('img/icon/svg/date.svg');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+.post-meta li:nth-child(3) {
+	display: none;
+}
